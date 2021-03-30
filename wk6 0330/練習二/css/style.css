@@ -1,0 +1,91 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0;
+	background:linear-gradient(#ffffff,#F0E5DE); 
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+}
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.product {
+	background-color: #F0E5DE;
+	padding-bottom:70px;
+}
+.product .card {
+	background-color: #ffffff;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+}
+
+.about-img{
+	
+}
